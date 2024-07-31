@@ -12,5 +12,15 @@
             Id = Guid.NewGuid();
             Active = true;
         }
+
+        public void UpdateName(string name)
+        {
+            Name = name;
+        }
+
+        public void StatusActive()
+        {
+            Active = false;
+        }
     }
 }
