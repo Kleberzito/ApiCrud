@@ -17,13 +17,14 @@ Esta API minimal em .NET foi desenvolvida para gerenciar o cadastro de alunos, u
 Este endpoint retorna uma lista de alunos cujo status ativo é `true`.
 
 #### Retorno
-```json
+````json
 [
     {
         "id": "guid",
         "nome": "Nome do Aluno"
     }
 ]
+````
 
 ### 2. Criar um novo aluno
 
@@ -33,8 +34,11 @@ Este endpoint retorna uma lista de alunos cujo status ativo é `true`.
 Este endpoint cria um novo aluno no banco de dados. O status ativo é definido automaticamente como true para todos os novos registros.
 
 #### Parâmetros da Requisição
+
+````json
 [
     {
         "nome": "Nome do Aluno"
     }
 ]
+````
