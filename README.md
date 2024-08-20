@@ -24,3 +24,17 @@ Este endpoint retorna uma lista de alunos cujo status ativo é `true`.
         "nome": "Nome do Aluno"
     }
 ]
+
+### 2. Criar um novo aluno
+
+**POST** `/estudante`
+
+#### Descrição
+Este endpoint cria um novo aluno no banco de dados. O status ativo é definido automaticamente como true para todos os novos registros.
+
+#### Parâmetros da Requisição
+[
+    {
+        "nome": "Nome do Aluno"
+    }
+]
