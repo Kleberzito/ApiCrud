@@ -18,12 +18,10 @@ Este endpoint retorna uma lista de alunos cujo status ativo é `true`.
 
 #### Retorno
 ````json
-[
-    {
-        "id": "guid",
-        "nome": "Nome do Aluno"
-    }
-]
+{
+    "id": "guid",
+    "nome": "Nome do Aluno"
+}
 ````
 
 ### 2. Criar um novo aluno
@@ -36,21 +34,17 @@ Este endpoint cria um novo aluno no banco de dados. O status ativo é definido a
 #### Exemplo de Requisição
 
 ````json
-[
-    {
-        "nome": "Nome do Aluno"
-    }
-]
+{
+    "nome": "Nome do Aluno"
+}
 ````
 
 #### Retorno
 ````json
-[
-    {
-        "id": "guid",
-        "nome": "Nome do Aluno"
-    }
-]
+{
+    "id": "guid",
+    "nome": "Nome do Aluno"
+}
 ````
 
 ### 3. Atualizar o nome de um aluno
@@ -64,21 +58,17 @@ Este endpoint permite a atualização do nome de um aluno específico, identific
 A requisição deve incluir o novo nome do aluno, junto com o ID na URL.
 
 ````json
-[
-    {
-        "nome": "Nome do Aluno"
-    }
-]
+{
+    "nome": "Nome do Aluno"
+}
 ````
 
 #### Retorno
 ````json
-[
-    {
-        "id": "guid",
-        "nome": "Novo Nome do Aluno"
-    }
-]
+{
+    "id": "guid",
+    "nome": "Novo Nome do Aluno"
+}
 ````
 
 ### 4. Desativar um aluno (soft delete)
@@ -92,10 +82,8 @@ A requisição deve incluir o ID do aluno na URL. Não é necessário enviar um 
 
 #### Retorno
 ````json
-[
-    {
-        "id": "guid",
-        "nome": "Nome do Aluno"
-    }
-]
+{
+    "id": "guid",
+    "nome": "Nome do Aluno"
+}
 ````
