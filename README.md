@@ -78,7 +78,7 @@ A requisição deve incluir o novo nome do aluno, junto com o ID na URL.
 Este endpoint realiza a desativação de um aluno, alterando o status ativo para false. O aluno não é removido do banco de dados, apenas marcado como inativo.
 
 #### Exemplo de Requisição
-A requisição deve incluir o ID do aluno na URL. Não é necessário enviar um corpo (body) na 
+A requisição deve incluir o ID do aluno na URL. Não é necessário enviar um corpo (body) na requisição.
 
 #### Retorno
 ````json
@@ -87,3 +87,4 @@ A requisição deve incluir o ID do aluno na URL. Não é necessário enviar um 
     "nome": "Nome do Aluno"
 }
 ````
+Esse exemplo mostra como desativar um aluno usando o ID na URL, mantendo a estrutura definida para a operação de "soft delete".
