@@ -81,10 +81,9 @@ Este endpoint realiza a desativação de um aluno, alterando o status ativo para
 A requisição deve incluir o ID do aluno na URL. Não é necessário enviar um corpo (body) na requisição.
 
 #### Retorno
-````json
-{
-    "id": "guid",
-    "nome": "Nome do Aluno"
-}
+Este endpoint retorna um código de status HTTP 200 (Success) sem nenhum corpo de resposta.
+
+````html
+    Status: 200 OK
 ````
 Esse exemplo mostra como desativar um aluno usando o ID na URL, mantendo a estrutura definida para a operação de "soft delete".
